@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  php:
+    build: ./docker/php/
+    ports:
+      - "55511:80"
+    volumes:
+      - .:/var/www/html
+      - ./docker/php/conf.d:/usr/local/etc/php/conf.d

@@ -1,0 +1,17 @@
+{
+    "name": "yanko/hls-php",
+    "autoload": {
+        "psr-4": {
+            "Yanko\\HlsPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "haejin.yang91",
+            "email": "haejin.yang91@gmail.com"
+        }
+    ],
+    "require": {
+        "aminyazdanpanah/php-ffmpeg-video-streaming": "^1.2"
+    }
+}
