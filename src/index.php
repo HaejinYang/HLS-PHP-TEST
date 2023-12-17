@@ -20,6 +20,7 @@ $ffmpeg = FFMpeg::create($config, $log);
 
 $video = $ffmpeg->open('../reference/BigBuckBunny.mp4');
 $video->hls()
+    ->setHlsBaseUrl('/reference')
     ->x264()
-    ->autoGenerateRepresentations([720, 360]) // You can limit the number of representatons
+    ->autoGenerateRepresentations([360]) // You can limit the number of representatons
     ->save();
