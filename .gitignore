@@ -1,4 +1,6 @@
 vendor/**
 .idea/**
-reference/**
-storage/log/**
+reference/*.m3u8
+reference/*.ts
+reference/*.mp4
+storage/log/*.log
