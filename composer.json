@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "aminyazdanpanah/php-ffmpeg-video-streaming": "^1.2"
+        "aminyazdanpanah/php-ffmpeg-video-streaming": "^1.2",
+        "monolog/monolog": "^3.5"
     }
 }
